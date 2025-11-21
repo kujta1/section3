@@ -19,7 +19,8 @@ COPY . .
 
 ## Run setup.py
 RUN pip install --no-cache-dir -e .
-
+RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install  sentence-transformers
 # Used PORTS
 EXPOSE 5000
 
