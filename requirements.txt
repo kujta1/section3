@@ -11,3 +11,4 @@ flask
 prometheus_client
 sentence-splitter
 langchain-classic
+sentence-transformers
